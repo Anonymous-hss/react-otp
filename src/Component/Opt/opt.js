@@ -34,6 +34,8 @@ function Opt({ optLenght = 6 }) {
   }, []);
   return (
     <div className="container">
+      OTP
+      <br />
       {valueField.map((value, index) => {
         return (
           <input
